@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      #slider {
+        width: 1000px;
+        height: 400px;
+        margin: 0 auto;
+      }
+      #slider > img {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .item {
+        width: 1000px;
+        heigt: 500px;
+        margin: 0 auto;
+        background-color: red;
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;}
+        
+      #product {
+        width: 1000px;
+        height: 500px;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+      }
+      #product > .logo > h1 {
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        padding: 20px;
+      }
+
+      #product > p {
+        color: #000;
+        font-size: 20px;
+        text-align: center;
+      }
+      .box {
+        width: 200px;
+        height: 300px;
+        background-color: white;
+        float: left;
+        margin: 20px 20px;
+        border-radius: 30px;
+        overflow: hidden;
+        border: 1px solid #ddd;
+        box-shadow: 4px 4px 4px #ddd;
+      }
+      #product > .logo > img {
+        margin: 0 700px 0 0;
+      }
+
+      #product > div:nth-of-type(1) {
+        margin: 20px 20px 0 50px;
+      }
+      .item > div:nth-of-type(1) {
+        margin: 20px 20px 0 50px;
+      }
+      /*#product>div:nth-child(3){margin:20px 20px 0 150px;}*/
+
+      .box > a > img {
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+      }
+      .box > a > h5 {
+        text-decoration: none;
+        color: #000;
+      }
+
+      .box > a > p {
+        font-size: 12px;
+        text-align: center;
+        color: #000;
+      }
+      button {
+        border: 0;
+        background-color: tomato;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 12px;
+      }
+      .logo {
+        margin: 0 auto;
+        width: 1000px;
+      }
+      .logo > img {
+        width: 140px;
+        height: 50px;
+        background-color: white;
+        border-radius: 0 0 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="logo">
+      <img
+        src="https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png"
+        alt="쿠팡"
+      />
+    </div>
+
+    <div id="slider">
+      <img
+        src="https://image9.coupangcdn.com/image/ccm/banner/0201dbc5f55878dcc4f650051de91eb6.jpg"
+        alt="사진"
+      />
+    </div>
+
+    <section id="product">
+      <h1>product</h1>
+
+      <p>새로운 상품을 만나보세요</p>
+
+      <div class="box">
+        <a href="#"
+          ><img
+            src="https://thumbnail8.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/df5a/1364835786bb28909500f8c9daded68a8148dc40b39b4bca7ef1c86b4bae.jpg"
+            alt="신발"
+        /></a>
+        <h5><a href="#">지프 운동화</a></h5>
+        <p>캐주얼 운동화</p>
+        <button>클릭</button>
+      </div>
+
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail6.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/85b0/3cba4af8571148639247dccbf41468c0d47c67cad72d0d763831d14f1258.jpg"
+            alt="메탈시계"
+        /></a>
+        <a href=""><h5>Weeve 시계</h5></a>
+        <p>클래식 메탈시계</p>
+        <button>클릭</button>
+      </div>
+
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail10.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/56bb/729e638f9a5c66ae75e8ea251c8d0a0a46481f66f6e13ea36e66e2b4541b.jpg"
+            alt="신발"
+        /></a>
+        <a href=""><h5>트레이닝팬츠</h5></a>
+        <p>캐주얼 유니크 팬츠</p>
+        <button>클릭</button>
+      </div>
+
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail8.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/2ca9/09d8e7f9e39c1ff3bc842d3c39478b9e93358764f76162c639f6f20b6f3b.jpg"
+            alt="신발"
+        /></a>
+        <a href=""><h5>지프 운동화</h5></a>
+        <p>캐주얼 운동화</p>
+        <button>클릭</button>
+      </div>
+    </section>
+
+    <div class="item">
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail9.coupangcdn.com/thumbnails/remote/292x292ex/image/vendor_inventory/d3bf/0db13f66ddd93c7303c6433b77089b1f9c53db5f4cfa9ccdbe8a284627e4.jpg"
+            alt="메탈시계"
+        /></a>
+        <a href=""><h5>Weeve 시계</h5></a>
+        <p>클래식 메탈시계</p>
+        <button>클릭</button>
+      </div>
+
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail9.coupangcdn.com/thumbnails/remote/160x160ex/image/vendor_inventory/51ba/5b38b0e33534e201bcf2e37234b8f8c0285868f3f49e98958edd79baf55f.jpg"
+            alt="신발"
+        /></a>
+        <a href=""><h5>트레이닝팬츠</h5></a>
+        <p>캐주얼 유니크 팬츠</p>
+        <button>클릭</button>
+      </div>
+
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail10.coupangcdn.com/thumbnails/remote/160x160ex/image/retail/images/5477140276380503-0ed09d39-da55-4c6f-9c55-3d3e467b89c0.jpg"
+            alt="신발"
+        /></a>
+        <a href=""><h5>트레이닝팬츠</h5></a>
+        <p>캐주얼 유니크 팬츠</p>
+        <button>클릭</button>
+      </div>
+      <div class="box">
+        <a href=""
+          ><img
+            src="https://thumbnail7.coupangcdn.com/thumbnails/remote/160x160ex/image/vendor_inventory/50c4/d57cc4408ac5096a87b24bb0b22c602ca6e4052a7611ea61c785bbc07fd5.jpg"
+            alt="신발"
+        /></a>
+        <a href=""><h5>트레이닝팬츠</h5></a>
+        <p>캐주얼 유니크 팬츠</p>
+        <button>클릭</button>
+      </div>
+    </div>
+  </body>
+</html>
